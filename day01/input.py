@@ -16,3 +16,9 @@ postal_code = input("City and postal code: ")
 print(name + " " + family_name)
 print(address)
 print(postal_code)
+
+# Storing inputs in their variables for utterances
+part1 = input("The 1st part: ")
+part2 = input("The 2nd part: ")
+part3 = input("The 3rd part: ")
+print(part1 + "-" + part2 + "-" + part3 + "!")
