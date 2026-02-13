@@ -22,4 +22,30 @@ print(f"Seconds in that many days: {days * 24 * 60 * 60}")
 
 
 
+# Asks the user to enter 3 numbers, then multiplies those 3
+product1 = int(input("Please type in the first number: "))
+product2 = int(input("Please type in the second number: "))
+product3 = int(input("Please type in the third number: "))
+
+print(f"The product is {product1 * product2 * product3}")
+
+
+
+# Asks the user for two numbers. Then prints out the sum and the product of the two numbers.
+num1 = int(input("Number 1: "))
+num2 = int(input("Number 2: "))
+
+print(f"The sum of the numbers: {num1 + num2}")
+print(f"The product of the numbers: {num1 * num2}")
+
+
+
+# Asks for 4 numbers, then prints the sum and it's mean
+num1 = int(input("Number 1: "))
+num2 = int(input("Number 2: "))
+num3 = int(input("Number 3: "))
+num4 = int(input("Number 4: "))
+sum = num1 + num2 + num3 + num4
+
+print(f"The sum of the numbers is {sum} and the mean is {sum / 4}")
 
