@@ -17,3 +17,13 @@ print(f" - {skill1} ({level1})")
 print(f" - {skill2} ({level2})")
 print(f" - {skill3} ({level3})\n")
 print(f"I am looking for a job with a salary of {lower}-{upper} pesos per month")
+
+
+# Printing arithmetic operations using f-strings
+x = 27
+y = 15
+
+print(f"{x} + {y} = {x + y}")
+print(f"{x} - {y} = {x - y}")
+print(f"{x} * {y} = {x * y}")
+print(f"{x} / {y} = {x / y}")
