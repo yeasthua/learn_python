@@ -1,6 +1,4 @@
 # Printing with F-Strings
-
-
 name = "Yeasthua"
 age = 18
 skill1 = "python"
