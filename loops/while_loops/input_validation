@@ -1,0 +1,19 @@
+# A program which asks the user to enter an integer number
+# If the number is more than zero, the program prints the square root of the number using the sqrt function
+# If the number is less than zero, the program prints "Invalid number" and restarts the whole loop
+# If the number is equal to zero, the program then breaks and exit the loop
+
+from math import sqrt
+
+while True:
+    num = int(input("Please type in a number: "))
+
+    if num > 0:
+        print(sqrt(num))
+    
+    if num == 0:
+        print("Exiting...")
+        break
+
+    else:
+        print("Invalid number")
