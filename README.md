@@ -17,5 +17,5 @@ This is **not**:
 - complete tutorials
 - guaranteed clean or consistent code
 
-**exercises are from Python Programming MOOC University of Helsinki**
+**Exercises are from Python Programming MOOC University of Helsinki**
 
