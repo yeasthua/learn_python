@@ -3,6 +3,6 @@
 limit = int(input("Upper limit: "))
 increment = 1
 
-while increment > limit:        # Assures that all numbers that will be printed are greater than 0
+while increment < limit:        # Assures that all numbers that will be printed are greater than 0
     print(increment)
     increment += 1              # Increments by 1 so the loop will eventually comes to a stop
