@@ -31,15 +31,16 @@ class Person(Student):
         avg = self.compute_average()
 
         if avg < 75:
-            print("Failed")
+            return "Failed"
         else:
-            print("Passed")
+            return "Passed"
 
-# declaring an object
+# Declaring an object
 person = Person(name, sub1, sub2, sub3)
 
-# display information
+# Display information
 print("\n")
+print("Your Information")
 print(f"Name: {person.name}")
 print(f"Average: {person.compute_average()}")
-person.get_status()
+print(f"Status: {person.get_status()}")
