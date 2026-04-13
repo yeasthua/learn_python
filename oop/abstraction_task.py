@@ -23,7 +23,7 @@ class Person(Student):
         self.name = name
         self.score = [sub1, sub2, sub3]
 
-    #def compute_average(self):
+    def compute_average(self):
         return sum(self.score) // len(self.score)   # Specific implementation of the method
 
 
