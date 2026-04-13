@@ -20,7 +20,7 @@ class Student(ABC):
     def get_status(self):
         pass
 
-# Subclass
+# Subclass inherits from (Student)
 class Person(Student):
 
     def compute_average(self):
