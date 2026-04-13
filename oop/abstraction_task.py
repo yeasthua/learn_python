@@ -8,7 +8,10 @@ sub3 = int(input("Enter your grade (sub 3): "))
 
 # Base class (blueprint)
 class Student(ABC):
-    
+    def __init__(self, name, sub1, sub2, sub3):     # Initialize attributes when object is created
+        self.name = name
+        self.score = [sub1, sub2, sub3]
+        
     @abstractmethod     # Forces subclasses to implement the method
     def compute_average(self):
         pass       # Allows subclasses to provide its own specific implementation of the method
@@ -19,9 +22,6 @@ class Student(ABC):
 
 # Subclass
 class Person(Student):
-    def __init__(self, name, sub1, sub2, sub3):     # Initialize attributes when object is created
-        self.name = name
-        self.score = [sub1, sub2, sub3]
 
     def compute_average(self):
         return sum(self.score) // len(self.score)   # Specific implementation of the method
