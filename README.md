@@ -2,7 +2,7 @@
 
 **Recording my own progress, one file at a time.**
 
-This repository is a chronological learning log of my Python journey. Each file/folder represents exercises, notes, and practice from different learning sessions. It’s not a finished project or polished library, it's my learning process, recorded.
+This repository is a learning log of my Python journey. Each file/folder represents exercises, notes, and practice from different learning sessions. It’s not a finished project or polished library, it's my learning process, recorded.
 
 ## What this repo *actually* is
 
