@@ -1,11 +1,5 @@
 from abc import ABC, abstractmethod     # Imports abstract base class to create "blueprint" for other subclasses
 
-# global variables
-name = input("Enter your name: ")
-sub1 = int(input("Enter your grade (sub 1): "))
-sub2 = int(input("Enter your grade (sub 2): "))
-sub3 = int(input("Enter your grade (sub 3): "))
-
 # Base class (blueprint)
 class Student(ABC):
     def __init__(self, name, sub1, sub2, sub3):     # Initialize attributes when object is created
@@ -34,6 +28,13 @@ class Person(Student):
             return "Failed"
         else:
             return "Passed"
+
+
+# global variables
+name = input("Enter your name: ")
+sub1 = int(input("Enter your grade (sub 1): "))
+sub2 = int(input("Enter your grade (sub 2): "))
+sub3 = int(input("Enter your grade (sub 3): "))
 
 # Declaring an object
 person = Person(name, sub1, sub2, sub3)
