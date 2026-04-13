@@ -36,7 +36,7 @@ sub1 = int(input("Enter your grade (sub 1): "))
 sub2 = int(input("Enter your grade (sub 2): "))
 sub3 = int(input("Enter your grade (sub 3): "))
 
-# Declaring an object
+# Creating an object
 person = Person(name, sub1, sub2, sub3)
 
 # Display information
