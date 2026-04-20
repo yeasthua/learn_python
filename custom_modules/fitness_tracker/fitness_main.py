@@ -7,5 +7,5 @@ height = float(input("Enter your height (meters): "))
 steps_walked = int(input("Enter your total steps: "))
 
 # Displays the functions inside fitness.py and use the user inputs as the functions arguments
-fitness.calculate_bmi(weight, height)
-fitness.goal_status(steps_walked)
+print(fitness.calculate_bmi(weight, height))
+print(fitness.goal_status(steps_walked))
