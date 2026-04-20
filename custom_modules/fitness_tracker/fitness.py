@@ -4,18 +4,18 @@ def calculate_bmi(weight, height):
     result =  weight / height ** 2
     rounded = round(result, 2)
     if result >= 25:
-        print(f"Your BMI is: {rounded}, Overweight")
+        return f"Your BMI is: {rounded}, Overweight"
     elif result >= 18.5:
-        print(f"Your BMI is: {rounded}, Normal weight")
+        return f"Your BMI is: {rounded}, Normal weight"
     else:
-        print(f"Your BMI is: {rounded},  Underweight")
+        return f"Your BMI is: {rounded},  Underweight"
 
 
 def goal_status(steps):
     if steps >= 10000:
-        print("Goal Reached")
+        return "Goal Reached"
     else:
-        print("Keep Going")
+        return "Keep Going"
     
 
     
