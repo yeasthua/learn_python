@@ -8,7 +8,7 @@ def calculate_bmi(weight, height):
     elif result >= 18.5:
         return f"Your BMI is: {rounded}, Normal weight"
     else:
-        return f"Your BMI is: {rounded},  Underweight"
+        return f"Your BMI is: {rounded}, Underweight"
 
 
 def goal_status(steps):
